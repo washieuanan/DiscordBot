@@ -128,5 +128,5 @@ async def unmute(ctx, user):
     await ctx.send(f"{user.mention} has been unmuted.")
 
 #Bot Token 
-client.run('Njk5Mzc1NzgwMDAxNDgwNzI0.XpTmeA.uOuh3zdRalQRCh-9VDhZ532USoo')
+client.run("CANNOT RELEASE BOT TOKEN TO THE PUBLIC")
 
