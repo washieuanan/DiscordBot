@@ -1,0 +1,4 @@
+pip
+asyncio
+discord
+requests
