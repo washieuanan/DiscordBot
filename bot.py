@@ -96,7 +96,7 @@ async def unban(ctx, *, member):
             await ctx.send(f'{user.name}#{user.discriminator} has been unbanned in this server.')
 
 @client.command(pass_context = True)
-async def mute(ctx, member: discord.Member = None, reason):
+async def mute(ctx, member: discord.Member = None, *, reason):
     role = discord.utils.get(ctx.guild.roles, name="Muted")
     hell = discord.utils.get(ctx.guild.text_channels, name="Hell")
     
